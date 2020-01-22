@@ -10,9 +10,9 @@ for (int i = 0; i < 5; i++) {
 
 for (int i = 0; i < 5; i++) {
     if (a[i] % 2 == 0) {
-        a[i] /= 2;
+        a[i] = a[i] / 2;
     } else {
-        a[i] *= 2;
+        a[i] = a[i] * 3 + 1;
     }
 }
 
