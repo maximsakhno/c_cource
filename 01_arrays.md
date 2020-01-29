@@ -149,7 +149,7 @@ printf("Максимальный элемент равен '%d', его инде
 
 #### Задания на acmp.ru
 1. Максимальный элемент https://acmp.ru/index.asp?main=task&id_task=1216
-2. Налоги https://acmp.ru/index.asp?main=task&id_task=696
+2. Налоги https://acmp.ru/index.asp?main=task&id_task=293696
 3. Шеренга https://acmp.ru/index.asp?main=task&id_task=1218
 4. Разворот https://acmp.ru/index.asp?main=task&id_task=149
 5. Статистика https://acmp.ru/index.asp?main=task&id_task=5
