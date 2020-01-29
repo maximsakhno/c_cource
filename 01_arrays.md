@@ -84,7 +84,10 @@ if (index == -1) {
 int a[1000];
 int n;
 
+printf("Введите количество элементов массива: ");
 scanf("%d", &n);
+
+printf("Введите элементы массива: ");
 for (int i = 0; i < n; i++) {
     scanf("%d", &a[i]);
 }
@@ -97,6 +100,7 @@ for (int i = 0; i < n; i++) {
     }
 }
 
+printf("Измененный массив: ");
 for (int i = 0; i < n; i++) {
     printf("%d ", a[i]);
 }
@@ -108,7 +112,10 @@ for (int i = 0; i < n; i++) {
 int a[1000];
 int n;
 
+printf("Введите количество элементов массива: ");
 scanf("%d", &n);
+
+printf("Введите элементы массива: ");
 for (int i = 0; i < n; i++) {
     scanf("%d", &a[i]);
 }
@@ -122,7 +129,7 @@ for (int i = 1; i < 5; i++) {
     }
 }
 
-printf("max_item = %d max_index = %d", max_item, max_index);
+printf("Максимальный элемент равен '%d', его индекс равен '%d'.", max_item, max_index);
 ```
 
 ##### Задание 4
@@ -144,4 +151,3 @@ printf("max_item = %d max_index = %d", max_item, max_index);
 4. Разворот https://acmp.ru/index.asp?main=task&id_task=149
 5. Статистика https://acmp.ru/index.asp?main=task&id_task=5
 6. Сбор черники https://acmp.ru/index.asp?main=task&id_task=496
-
