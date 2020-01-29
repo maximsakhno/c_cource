@@ -122,7 +122,7 @@ for (int i = 0; i < n; i++) {
 
 int max_index = 0;
 int max_item = a[max_index];
-for (int i = 1; i < 5; i++) {
+for (int i = 1; i < n; i++) {
     if (max_item < a[i]) {
         max_item = a[i];
         max_index = i;
