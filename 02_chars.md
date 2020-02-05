@@ -4,8 +4,13 @@
 Получение кода по символу и обратно.
 ```c
 char a = 'a';
-int n = (char) a;
-char b = (int) n;
+int code = (char) a;
+char symbol = (int) code;
+if (a == symbol) {
+    printf("a == symbol\n");
+} else {
+    printf("a != symbol\n");
+}
 ```
 
 #### Пример 2
@@ -30,9 +35,9 @@ printf("%c", a);
 ```c
 char a = '0', b = '9';
 if (a < b) {
-    printf("%c < %c", a, b);
+    printf("%c < %c\n", a, b);
 } else {
-    printf("%c >= %c", a, b);
+    printf("%c >= %c\n", a, b);
 }
 ```
 
